@@ -1,6 +1,8 @@
 import sys, os
 import logging
 from datetime import datetime
+from glob import glob
+
 from veracode import SDK, application
 from veracode.SDK.utils import Properties
 from veracode.exceptions import *
